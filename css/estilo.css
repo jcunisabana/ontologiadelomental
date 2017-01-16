@@ -392,3 +392,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', end
 }
 
 p.left {text-align: left}
+
+
+div.transbox {
+  margin: -10px;
+  background-color: #000;
+  opacity: 0.75;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+
+}
+
+div.transbox ul {
+  margin: 3%;
+  color: #000000;
+}
+
